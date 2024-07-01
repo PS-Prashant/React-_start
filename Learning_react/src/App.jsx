@@ -6,7 +6,7 @@ import Card from './component/Card'
    
 function App() {
 
-	let [ index, setIndex ] = useState(0);
+	let [ index, setIndex ] = useState(1);
 
 	function clickButton() {
 		setIndex( index + 1 )
